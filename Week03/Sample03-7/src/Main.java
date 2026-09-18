@@ -1,9 +1,11 @@
 //TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 void main() {
-    long value1 = 30000000000L;
-    long value2 = 40000000000L;
-    long result = value1 * value2;
+    int test = 10;
+    {
+        int test1 = 10;
 
-    System.out.printf("%,d * %,d = %,d\n", value1, value2, result);
+
+    }
+    int test1 = 10;
 }
